@@ -1,0 +1,54 @@
+Source: libkexiv2
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6), libexiv2-dev (>= 0.20)
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkexiv2
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkexiv2
+
+Package: libkexiv2-10
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         libkexiv2-data (>= ${source:Version})
+Description: Qt like interface for the libexiv2 library (runtime)
+ Contains the library of libkexiv2.
+ .
+ Libkexiv is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkexiv2-data
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: kdegraphics-libs-data (<< 4:4.6.80),
+        libkexiv2-10 (<< 4:4.6.90-0ubuntu2~)
+Replaces: kdegraphics-libs-data (<< 4:4.6.80),
+          libkexiv2-10 (<< 4:4.6.90-0ubuntu2~)
+Description: Qt like interface for the libexiv2 library (data files)
+ Contains the data files of libkexiv2.
+ .
+ Libkexiv is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkexiv2-dev
+Section: libdevel
+Architecture: any
+Depends: libkexiv2-10 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkexiv2-10}, pkg-config
+Conflicts: libkexiv2-6-dev, libkexiv2-7-dev, libkexiv2-8-dev
+Description: Qt-like interface for the libexiv2 library (development)
+ libkexif2-dev contains development files and documentation for libkexiv2
+ library.  The library documentation is available on kexiv2.h header file.
+ .
+ Libkexif is a wrapper around Exiv2 library to manipulate pictures metadata.
+
+Package: libkexiv2-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, libkexiv2-10
+Description: debugging symbols for the KDE libexiv2 library
+ This package contains debugging files used to investigate problems with
+ library included in the libexiv2 package.
