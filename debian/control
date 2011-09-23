@@ -24,10 +24,8 @@ Description: Qt like interface for the libexiv2 library (runtime)
 Package: libkexiv2-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: kdegraphics-libs-data (<< 4:4.6.80),
-        libkexiv2-10 (<< 4:4.6.90-0ubuntu2~)
-Replaces: kdegraphics-libs-data (<< 4:4.6.80),
-          libkexiv2-10 (<< 4:4.6.90-0ubuntu2~)
+Breaks: kdegraphics-libs-data (<< 4:4.6.80)
+Replaces: kdegraphics-libs-data (<< 4:4.6.80)
 Description: Qt like interface for the libexiv2 library (data files)
  Contains the data files of libkexiv2.
  .
