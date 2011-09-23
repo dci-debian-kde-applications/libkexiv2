@@ -1,34 +1,5 @@
-libkexiv2 (4:4.7.1-0ubuntu2) oneiric; urgency=low
+libkexiv2 (4:4.7.1-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:15:42 +0200
-
-libkexiv2 (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Sat, 03 Sep 2011 21:01:39 +0200
-
-libkexiv2 (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:06:54 +0200
-
-libkexiv2 (4:4.6.90-0ubuntu2) oneiric; urgency=low
-
-  * Split data files into an own package.
-
- -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 13 Jul 2011 15:28:06 +0200
-
-libkexiv2 (4:4.6.90-0ubuntu1) oneiric; urgency=low
-
-  [ Romain Perier ]
-  * Initial development release: split off from kdegraphics
-
-  [ Felix Geyer ]
-  * Make libkexiv2-dbg depend on libkexiv2-10.
-
- -- Romain Perier <romain.perier@gmail.com>  Mon, 11 Jul 2011 14:07:35 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 23 Sep 2011 21:44:03 +0200
