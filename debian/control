@@ -8,8 +8,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
  kdelibs5-dev (>= 4:4.7), libexiv2-dev (>= 0.20)
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkexiv2
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkexiv2
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkexiv2.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkexiv2.git
 
 Package: libkexiv2-10
 Section: libs
