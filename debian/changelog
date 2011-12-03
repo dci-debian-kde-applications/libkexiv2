@@ -1,5 +1,6 @@
-libkexiv2 (4:4.7.2-0r1) UNRELEASED; urgency=low
+libkexiv2 (4:4.7.2-0r1) experimental; urgency=low
 
+  [ José Manuel Santamaría Lema ]
   * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 23 Sep 2011 21:44:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:59 -0300
