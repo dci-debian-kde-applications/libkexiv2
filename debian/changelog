@@ -1,4 +1,4 @@
-libkexiv2 (4:4.7.4-0r0) UNRELEASED; urgency=low
+libkexiv2 (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
   
@@ -6,7 +6,7 @@ libkexiv2 (4:4.7.4-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Dec 2011 18:53:46 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:45:11 +0100
 
 libkexiv2 (4:4.7.2-1) experimental; urgency=low
 
