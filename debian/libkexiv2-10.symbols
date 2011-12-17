@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPriv5clearEv@Base 4:4.7.1
- _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD1Ev@Base 4:4.7.1
- _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD2Ev@Base 4:4.7.1
+ (arch=!armel)_ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD1Ev@Base 4:4.7.2
+ (arch=!armel)_ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD2Ev@Base 4:4.7.2
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4:4.7.1
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface10KExiv2DataC2ERKS0_@Base 4:4.7.1
@@ -24,8 +24,8 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface11MsgTextEditD0Ev@Base 4:4.7.1
  _ZN11KExiv2Iface11MsgTextEditD1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface11MsgTextEditD2Ev@Base 4:4.7.1
- _ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.7.1
- _ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.7.1
+ (arch=!ia64)_ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.7.2
+ (arch=!ia64)_ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.7.2
  _ZN11KExiv2Iface13SubjectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN11KExiv2Iface13SubjectWidget11qt_metacastEPKc@Base 4:4.7.1
  _ZN11KExiv2Iface13SubjectWidget14signalModifiedEv@Base 4:4.7.1
@@ -165,14 +165,14 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.7.1
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.7.1
- _ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.7.1
+ (arch=amd64 ia64 kfreebsd-amd64)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.7.2
  _ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.7.1
  _ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.7.1
  _ZN5Exiv27XmpDataD1Ev@Base 4:4.7.1
  _ZN5Exiv27XmpDataD2Ev@Base 4:4.7.1
  _ZN5Exiv28IptcDataD1Ev@Base 4:4.7.1
  _ZN5Exiv28IptcDataD2Ev@Base 4:4.7.1
- (optional=templinst)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.7.1
+ (optional=templinst|arch=amd64 ia64 kfreebsd-amd64)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.7.1
