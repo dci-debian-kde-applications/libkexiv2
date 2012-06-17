@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+# SymbolsHelper-Confirmed: 4:4.8.4 i386
 libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data14KExiv2DataPriv5clearEv@Base 4:4.7.1
  (arch=!armel)_ZN11KExiv2Iface10KExiv2Data14KExiv2DataPrivD1Ev@Base 4:4.7.2
@@ -24,8 +24,6 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface11MsgTextEditD0Ev@Base 4:4.7.1
  _ZN11KExiv2Iface11MsgTextEditD1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface11MsgTextEditD2Ev@Base 4:4.7.1
- (arch=!ia64)_ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.7.2
- (arch=!ia64)_ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.7.2
  _ZN11KExiv2Iface13SubjectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN11KExiv2Iface13SubjectWidget11qt_metacastEPKc@Base 4:4.7.1
  _ZN11KExiv2Iface13SubjectWidget14signalModifiedEv@Base 4:4.7.1
@@ -45,10 +43,12 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface13SubjectWidgetD1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface13SubjectWidgetD2Ev@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit10addCurrentEv@Base 4:4.7.1
+ _ZN11KExiv2Iface14AltLangStrEdit11changeEventEP6QEvent@Base 4:4.8.4
  _ZN11KExiv2Iface14AltLangStrEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit11qt_metacastEPKc@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit14signalModifiedERK7QStringS3_@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit15setClickMessageERK7QString@Base 4:4.7.1
+ _ZN11KExiv2Iface14AltLangStrEdit15setLinesVisibleEj@Base 4:4.8.4
  _ZN11KExiv2Iface14AltLangStrEdit15slotDeleteValueEv@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit15slotTextChangedEv@Base 4:4.7.1
  _ZN11KExiv2Iface14AltLangStrEdit16signalValueAddedERK7QStringS3_@Base 4:4.7.1
@@ -165,19 +165,15 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.7.1
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.7.1
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.7.1
- (arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.7.4
+ (arch=amd64 i386 ia64 kfreebsd-amd64 s390x)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.8.4
  _ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.7.1
  _ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.7.1
- _ZN5Exiv27XmpDataD1Ev@Base 4:4.7.1
- _ZN5Exiv27XmpDataD2Ev@Base 4:4.7.1
- _ZN5Exiv28IptcDataD1Ev@Base 4:4.7.1
- _ZN5Exiv28IptcDataD2Ev@Base 4:4.7.1
- (optional=templinst|arch=amd64 ia64 kfreebsd-amd64 s390x)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.7.1
+ _ZN5Exiv28ExifDataD1Ev@Base 4:4.8.4
+ _ZN5Exiv28ExifDataD2Ev@Base 4:4.8.4
+ (optional=templinst|arch=amd64 i386 ia64 kfreebsd-amd64 s390x)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.7.1
- (optional=templinst)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.7.1
- (optional=templinst)_ZN5Exiv29ValueTypeIjEC2ERKS1_@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.7.1
  (optional=templinst)_ZN5Exiv29ValueTypeIjED2Ev@Base 4:4.7.1
@@ -188,6 +184,7 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  _ZNK11KExiv2Iface13SubjectWidget12subjectsListEv@Base 4:4.7.1
  _ZNK11KExiv2Iface14AltLangStrEdit10metaObjectEv@Base 4:4.7.1
  _ZNK11KExiv2Iface14AltLangStrEdit12languageCodeEi@Base 4:4.7.1
+ _ZNK11KExiv2Iface14AltLangStrEdit12linesVisibleEv@Base 4:4.8.4
  _ZNK11KExiv2Iface14AltLangStrEdit14defaultAltLangEv@Base 4:4.7.1
  _ZNK11KExiv2Iface14AltLangStrEdit16asDefaultAltLangEv@Base 4:4.7.1
  _ZNK11KExiv2Iface14AltLangStrEdit19currentLanguageCodeEv@Base 4:4.7.1
@@ -325,19 +322,25 @@ libkexiv2.so.10 libkexiv2-10 #MINVER#
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE7toFloatEl@Base 4:4.7.1
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8dataAreaEv@Base 4:4.7.1
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringEl@Base 4:4.7.1
+ (optional=templinst)_ZNSs12_S_constructIPcEES0_T_S1_RKSaIcESt20forward_iterator_tag@Base 4:4.8.4
  (optional=templinst)_ZNSsC1IPcEET_S1_RKSaIcE@Base 4:4.7.1
  (optional=templinst)_ZNSsC2IPcEET_S1_RKSaIcE@Base 4:4.7.1
- (optional=templinst)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED1Ev@Base 4:4.7.1
- (optional=templinst)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EED2Ev@Base 4:4.7.1
+ (optional=templinst)_ZNSt10_List_baseIN5Exiv29ExifdatumESaIS1_EE8_M_clearEv@Base 4:4.8.4
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.7.1
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.7.1
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.7.1
  (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEaSERKS3_@Base 4:4.7.1
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4:4.7.1
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED2Ev@Base 4:4.7.1
+ (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4:4.8.4
+ (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED2Ev@Base 4:4.8.4
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEaSERKS3_@Base 4:4.7.1
+ (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4:4.8.4
+ (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4:4.8.4
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4:4.7.1
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.7.1
+ (optional=templinst)_ZNSt6vectorIjSaIjEED1Ev@Base 4:4.8.4
+ (optional=templinst)_ZNSt6vectorIjSaIjEED2Ev@Base 4:4.8.4
  _ZTIN11KExiv2Iface11MsgTextEditE@Base 4:4.7.1
  _ZTIN11KExiv2Iface13SubjectWidgetE@Base 4:4.7.1
  _ZTIN11KExiv2Iface14AltLangStrEditE@Base 4:4.7.1
