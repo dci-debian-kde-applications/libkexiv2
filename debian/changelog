@@ -1,4 +1,4 @@
-libkexiv2 (4:4.8.4-0r1) UNRELEASED; urgency=low
+libkexiv2 (4:4.8.4-1) unstable; urgency=low
 
   * Prepare new upstream
   * Update symbol files
