@@ -1,3 +1,11 @@
+libkexiv2 (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream
+  * Update copyright
+  * Soversion bumped => pkg rename and stuff
+
+ -- Sune Vuorela <sune@debian.org>  Thu, 04 Apr 2013 06:46:38 +0000
+
 libkexiv2 (4:4.8.4-1) unstable; urgency=low
 
   * Prepare new upstream
