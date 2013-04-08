@@ -1,3 +1,8 @@
+libkexiv2 (4:4.10.2-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Apr 2013 12:45:31 +0200
+
 libkexiv2 (4:4.10.2-1) experimental; urgency=low
 
   * New upstream
