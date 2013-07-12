@@ -1,9 +1,9 @@
-libkexiv2 (4:4.10.5-1) UNRELEASED; urgency=low
+libkexiv2 (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
   * Update symbols.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 09:52:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 13:44:48 +0200
 
 libkexiv2 (4:4.10.4-1) experimental; urgency=low
 
