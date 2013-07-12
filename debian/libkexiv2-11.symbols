@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data7Private5clearEv@Base 4:4.10.2
- _ZN11KExiv2Iface10KExiv2Data7PrivateD1Ev@Base 4:4.10.2
- _ZN11KExiv2Iface10KExiv2Data7PrivateD2Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN11KExiv2Iface10KExiv2Data7PrivateD1Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN11KExiv2Iface10KExiv2Data7PrivateD2Ev@Base 4:4.10.2
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4:4.10.2
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4:4.10.2
  _ZN11KExiv2Iface10KExiv2DataC2ERKS0_@Base 4:4.10.2
@@ -24,6 +24,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface11MsgTextEditD0Ev@Base 4:4.10.2
  _ZN11KExiv2Iface11MsgTextEditD1Ev@Base 4:4.10.2
  _ZN11KExiv2Iface11MsgTextEditD2Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.10.5
+ (optional=gccinternal)_ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.10.5
  _ZN11KExiv2Iface13SubjectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.2
  _ZN11KExiv2Iface13SubjectWidget11qt_metacastEPKc@Base 4:4.10.2
  _ZN11KExiv2Iface13SubjectWidget14signalModifiedEv@Base 4:4.10.2
@@ -174,12 +176,14 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  (arch=amd64 i386 ia64 kfreebsd-amd64 s390x)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.10.2
  _ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.10.2
  _ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.10.2
- _ZN5Exiv28ExifDataD1Ev@Base 4:4.10.2
- _ZN5Exiv28ExifDataD2Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN5Exiv28ExifDataD1Ev@Base 4:4.10.2
+ (optional=gccinternal)_ZN5Exiv28ExifDataD2Ev@Base 4:4.10.2
  (optional=templinst|arch=amd64 i386 ia64 kfreebsd-amd64 s390x)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.10.2
+ (optional=templinst)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.10.5
+ (optional=templinst)_ZN5Exiv29ValueTypeIjEC2ERKS1_@Base 4:4.10.5
  (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjED2Ev@Base 4:4.10.2
