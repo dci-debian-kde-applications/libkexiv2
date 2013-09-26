@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data7Private5clearEv@Base 4:4.10.2
  (optional=gccinternal)_ZN11KExiv2Iface10KExiv2Data7PrivateD1Ev@Base 4:4.10.2
@@ -151,8 +151,9 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface6KExiv231convertToUserPresentableNumbersERK7QStringPiS4_PdPc@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv231convertToUserPresentableNumbersEbdPiS1_PdPc@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv233convertToRationalSmallDenominatorEdPlS1_@Base 4:4.10.2
- _ZN11KExiv2Iface6KExiv27Private12mergeXmpDataERKN5Exiv27XmpDataERS3_@Base 4:4.10.2
+ (optional=private)_ZN11KExiv2Iface6KExiv27Private12mergeXmpDataERKN5Exiv27XmpDataERS3_@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv27Private15copyPrivateDataEPKS1_@Base 4:4.10.2
+ _ZN11KExiv2Iface6KExiv27Private15loadSidecarDataESt8auto_ptrIN5Exiv25ImageEE@Base 4:4.11.1
  _ZN11KExiv2Iface6KExiv27Private24printExiv2ExceptionErrorERK7QStringRN5Exiv210BasicErrorIcEE@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv27Private24printExiv2MessageHandlerEiPKc@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv27PrivateC1Ev@Base 4:4.10.2
@@ -173,6 +174,9 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.10.2
+ _ZN5Exiv212XmpTextValueD0Ev@Base 4:4.11.1
+ _ZN5Exiv212XmpTextValueD1Ev@Base 4:4.11.1
+ _ZN5Exiv212XmpTextValueD2Ev@Base 4:4.11.1
  (arch=amd64 i386 ia64 kfreebsd-amd64 s390x)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.10.2
  _ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.10.2
  _ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.10.2
@@ -245,6 +249,7 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZNK11KExiv2Iface6KExiv215setImagePreviewERK6QImageb@Base 4:4.10.2
  _ZNK11KExiv2Iface6KExiv215setIptcKeywordsERK11QStringListS3_b@Base 4:4.10.2
  _ZNK11KExiv2Iface6KExiv215setIptcSubjectsERK11QStringListS3_b@Base 4:4.10.2
+ _ZNK11KExiv2Iface6KExiv215setXmpTagStringEPKcRK7QStringNS0_10XmpTagTypeEb@Base 4:4.11.1
  _ZNK11KExiv2Iface6KExiv215setXmpTagStringEPKcRK7QStringb@Base 4:4.10.2
  _ZNK11KExiv2Iface6KExiv216getExifTagStringEPKcb@Base 4:4.10.2
  _ZNK11KExiv2Iface6KExiv216getExifThumbnailEb@Base 4:4.10.2
