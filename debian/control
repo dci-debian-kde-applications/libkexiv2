@@ -2,11 +2,12 @@ Source: libkexiv2
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Pino Toscano <pino@debian.org>, Sune Vuorela <sune@debian.org>,
+Uploaders: Pino Toscano <pino@debian.org>,
+           Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10), libexiv2-dev (>= 0.20)
+ kdelibs5-dev (>= 4:4.11), libexiv2-dev (>= 0.20)
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkexiv2.git
