@@ -1,9 +1,8 @@
-libkexiv2 (4:4.11.3-2) UNRELEASED; urgency=low
+libkexiv2 (4:4.11.3-2) unstable; urgency=low
 
-  [ Pino Toscano ]
   * Add the pkg-config build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:25:08 +0100
+ -- Pino Toscano <pino@debian.org>  Wed, 25 Dec 2013 18:07:29 +0100
 
 libkexiv2 (4:4.11.3-1) unstable; urgency=low
 
