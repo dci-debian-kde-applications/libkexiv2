@@ -4,6 +4,12 @@ libkexiv2 (4:4.11.4-1) UNRELEASED; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:00:39 +0100
 
+libkexiv2 (4:4.11.3-2) unstable; urgency=low
+
+  * Add the pkg-config build dependency.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 25 Dec 2013 18:07:29 +0100
+
 libkexiv2 (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
