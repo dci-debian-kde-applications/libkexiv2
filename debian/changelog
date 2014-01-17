@@ -2,6 +2,7 @@ libkexiv2 (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Enable build failures on missing symbols.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 15:16:15 -0300
 
