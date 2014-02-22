@@ -1,3 +1,8 @@
+libkexiv2 (4:4.11.5-2) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Feb 2014 18:29:31 +0100
+
 libkexiv2 (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
