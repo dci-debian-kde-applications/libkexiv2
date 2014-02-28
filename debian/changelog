@@ -1,9 +1,12 @@
-libkexiv2 (4:4.12.2-2) UNRELEASED; urgency=medium
+libkexiv2 (4:4.12.3-1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Merge changes from 4:4.11.5-2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Feb 2014 18:52:05 +0100
+  [ Maximiliano Curia ]
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:24:57 +0100
 
 libkexiv2 (4:4.12.2-1) experimental; urgency=medium
 
