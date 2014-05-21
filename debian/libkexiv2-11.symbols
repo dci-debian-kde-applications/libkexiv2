@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.13.1 amd64
 libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data7Private5clearEv@Base 4:4.10.2
  (optional=gccinternal|arch=ia64 sparc)_ZN11KExiv2Iface10KExiv2Data7PrivateD1Ev@Base 4:4.10.2
@@ -173,9 +173,9 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.10.2
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.10.2
- (optional=templinst|arch=!ia64 !sparc)_ZN5Exiv212XmpTextValueD0Ev@Base 4:4.11.5
- (optional=templinst|arch=!ia64 !sparc)_ZN5Exiv212XmpTextValueD1Ev@Base 4:4.11.5
- (optional=templinst|arch=!ia64 !sparc)_ZN5Exiv212XmpTextValueD2Ev@Base 4:4.11.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5Exiv212XmpTextValueD0Ev@Base 4:4.11.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5Exiv212XmpTextValueD1Ev@Base 4:4.11.5
+ (optional=templinst|arch=!amd64 !ia64 !sparc)_ZN5Exiv212XmpTextValueD2Ev@Base 4:4.11.5
  (optional=templinst|arch=alpha amd64 ia64 kfreebsd-amd64 ppc64 s390x)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.11.5
  (optional=templinst)_ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.10.2
@@ -187,8 +187,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.10.2
- (optional=templinst)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.10.5
- (optional=templinst)_ZN5Exiv29ValueTypeIjEC2ERKS1_@Base 4:4.10.5
+ (optional=templinst|arch=!amd64)_ZN5Exiv29ValueTypeIjEC1ERKS1_@Base 4:4.10.5
+ (optional=templinst|arch=!amd64)_ZN5Exiv29ValueTypeIjEC2ERKS1_@Base 4:4.10.5
  (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.10.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjED2Ev@Base 4:4.10.2
@@ -346,6 +346,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 4:4.10.2
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 4:4.10.2
  (optional=templinst)_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 4:4.10.2
+ (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEC1ERKS3_@Base 4:4.13.1
+ (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEC2ERKS3_@Base 4:4.13.1
  (optional=templinst)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEaSERKS3_@Base 4:4.10.2
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4:4.10.2
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED2Ev@Base 4:4.10.2
