@@ -1,6 +1,7 @@
 libkexiv2 (4:4.14.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 06:11:45 +0200
 
