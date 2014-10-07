@@ -1,0 +1,32 @@
+From 1af638424c3bc55e5ceac5f4ac6f48ee47f407a7 Mon Sep 17 00:00:00 2001
+From: Gilles Caulier <caulier.gilles@gmail.com>
+Date: Sat, 13 Sep 2014 08:32:24 +0200
+Subject: [PATCH] If edited and previous strings are empty, do nothing. BUGS:
+ 152948 FIXED-IN: 4.12.2
+
+(cherry picked from commit d90dcdf2b3cff736176c723246a3522d1e2b1613)
+---
+ libkexiv2/altlangstredit.cpp | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/libkexiv2/altlangstredit.cpp b/libkexiv2/altlangstredit.cpp
+index 3e2e32d..987a3ba 100644
+--- a/libkexiv2/altlangstredit.cpp
++++ b/libkexiv2/altlangstredit.cpp
+@@ -458,6 +458,13 @@ void AltLangStrEdit::slotTextChanged()
+     QString editedText   = d->valueEdit->toPlainText();
+     QString previousText = d->values.value(d->currentLanguage);
+ 
++    // Special case : if edited and previous strings are empty, do nothing.
++    // See bug #152948.
++    if (editedText.isEmpty() && previousText.isNull())
++    {
++        return;
++    }
++
+     if (editedText.isEmpty())
+     {
+         slotDeleteValue();
+-- 
+2.1.1
+
