@@ -1,3 +1,10 @@
+libkexiv2 (4:4.14.1-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Oct 2014 08:20:25 +0200
+
 libkexiv2 (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
