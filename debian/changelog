@@ -13,6 +13,7 @@ libkexiv2 (4:4.14.1-0r1) UNRELEASED; urgency=medium
     - backport commit 1af638424c3bc55e5ceac5f4ac6f48ee47f407a7 to avoid useless
       change requests when no actual changes were done; patch
       upstream_If-edited-and-previous-strings-are-empty-do-nothing.patch.
+  * Update install files (related to the version change).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Oct 2014 08:20:25 +0200
 

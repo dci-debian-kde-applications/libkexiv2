@@ -8,6 +8,6 @@ usr/include/libkexiv2/msgtextedit.h
 usr/include/libkexiv2/rotationmatrix.h
 usr/include/libkexiv2/subjectwidget.h
 usr/include/libkexiv2/version.h
-usr/lib/cmake/libkexiv2-2.3.1/
+usr/lib/cmake/libkexiv2-*/
 usr/lib/libkexiv2.so
 usr/lib/pkgconfig/libkexiv2.pc
