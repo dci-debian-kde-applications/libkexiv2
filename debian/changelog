@@ -1,6 +1,5 @@
-libkexiv2 (4:4.14.1-0r1) UNRELEASED; urgency=medium
+libkexiv2 (4:4.14.1-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
   * New upstream release.
   * Backport few upstream patches (basically a KDE/4.14 branch pull):
     - backport commit 25ad41274d0f4084554794ee91e183accfce781f to fix
@@ -15,7 +14,7 @@ libkexiv2 (4:4.14.1-0r1) UNRELEASED; urgency=medium
       upstream_If-edited-and-previous-strings-are-empty-do-nothing.patch.
   * Update install files (related to the version change).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Oct 2014 08:20:25 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 07 Oct 2014 08:33:12 +0200
 
 libkexiv2 (4:4.14.0-1) unstable; urgency=medium
 
