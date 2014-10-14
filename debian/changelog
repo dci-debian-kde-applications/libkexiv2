@@ -2,6 +2,12 @@ libkexiv2 (4:4.14.2-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Update the patches:
+    - upstream_Prevent-crash-if-index-if-out-of-QList-range.patch: drop,
+      backported
+    - upstream_bump-the-version-to-2.3.2.patch: drop, backported
+    - upstream_If-edited-and-previous-strings-are-empty-do-nothing.patch:
+      drop, backported
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 Oct 2014 21:50:57 +0200
 
