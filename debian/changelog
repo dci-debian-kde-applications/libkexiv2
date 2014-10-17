@@ -8,6 +8,7 @@ libkexiv2 (4:4.14.2-0r1) UNRELEASED; urgency=medium
     - upstream_bump-the-version-to-2.3.2.patch: drop, backported
     - upstream_If-edited-and-previous-strings-are-empty-do-nothing.patch:
       drop, backported
+  * Bump Standards-Version to 3.9.6, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 14 Oct 2014 21:50:57 +0200
 
