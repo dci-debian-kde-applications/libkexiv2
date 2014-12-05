@@ -1,3 +1,10 @@
+libkexiv2 (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream RC release
+  * Update symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:50 +0100
+
 libkexiv2 (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release.
@@ -36,12 +43,90 @@ libkexiv2 (4:4.14.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 16:29:20 +0200
 
+libkexiv2 (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 06:24:23 -0700
+
+libkexiv2 (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:46:14 +0200
+
+libkexiv2 (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:32:07 +0200
+
+libkexiv2 (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 17:21:25 +0200
+
+libkexiv2 (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Update libkexiv2-11.symbols for new gcc
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:46:11 +0200
+
+libkexiv2 (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add missing files to libkexiv2-dev
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:36:13 +0200
+
+libkexiv2 (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  [ Rohan Garg ]
+  * Merge with debian, no remaining changes
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 12:06:55 +0100
+
 libkexiv2 (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 22 May 2014 09:38:00 +0200
+
+libkexiv2 (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:21:46 +0100
+
+libkexiv2 (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:49:02 +0200
+
+libkexiv2 (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:48:38 +0100
+
+libkexiv2 (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:54:29 +0000
 
 libkexiv2 (4:4.12.3-2) unstable; urgency=medium
 
@@ -59,12 +144,54 @@ libkexiv2 (4:4.12.3-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:35 +0100
 
+libkexiv2 (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 21:09:52 +0100
+
 libkexiv2 (4:4.12.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:32 +0100
+
+libkexiv2 (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:20:52 +0000
+
+libkexiv2 (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:34:56 +0000
+
+libkexiv2 (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:35:15 +0000
+
+libkexiv2 (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:33:35 +0000
+
+libkexiv2 (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:30:48 +0100
+
+libkexiv2 (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:54:12 +0100
 
 libkexiv2 (4:4.11.5-2) unstable; urgency=medium
 
@@ -102,6 +229,61 @@ libkexiv2 (4:4.11.2-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Oct 2013 12:14:56 +0200
 
+libkexiv2 (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:47:32 +0100
+
+libkexiv2 (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:35:44 +0100
+
+libkexiv2 (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 13 Aug 2013 23:51:48 +0100
+
+libkexiv2 (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:57:47 +0100
+
+libkexiv2 (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:33:21 +0000
+
+libkexiv2 (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:27:02 +0100
+
+libkexiv2 (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Update libkexiv2-11.symbols 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 01:43:13 +0100
+
 libkexiv2 (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
@@ -119,6 +301,19 @@ libkexiv2 (4:4.10.4-1) experimental; urgency=low
   * Add myself to uploaders.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 13:47:58 +0200
+
+libkexiv2 (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:46:54 +0100
+
+libkexiv2 (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 08 May 2013 16:10:51 +0000
 
 libkexiv2 (4:4.10.2-2) experimental; urgency=low
 
@@ -139,6 +334,96 @@ libkexiv2 (4:4.10.2-1) experimental; urgency=low
 
  -- Sune Vuorela <sune@debian.org>  Thu, 04 Apr 2013 06:46:38 +0000
 
+libkexiv2 (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:32:15 +0200
+
+libkexiv2 (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:43:17 +0000
+
+libkexiv2 (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 12:08:12 +0000
+
+libkexiv2 (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:59:34 +0000
+
+libkexiv2 (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:20:38 +0100
+
+libkexiv2 (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:11:14 +0000
+
+libkexiv2 (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:11:31 +0000
+
+libkexiv2 (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  * New upstream beta release
+  * Update .symbols file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:39:37 +0000
+
+libkexiv2 (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:43:47 +0100
+
+libkexiv2 (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:35:03 +0100
+
+libkexiv2 (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:39:54 +0530
+
+libkexiv2 (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 17:14:48 +0100
+
+libkexiv2 (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 18:07:10 +0200
+
+libkexiv2 (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release
+    - replace libkexiv2-10 with libkexiv2-11 for new ABI version
+    - refresh libkexiv2-11.symbols
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 26 May 2012 14:27:02 +0200
+
 libkexiv2 (4:4.8.4-1) unstable; urgency=low
 
   * Prepare new upstream
@@ -146,6 +431,49 @@ libkexiv2 (4:4.8.4-1) unstable; urgency=low
   * Update install files
 
  -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 22:19:38 +0200
+
+libkexiv2 (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Update symbol files for gcc 4.7 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 13 May 2012 20:14:24 +0200
+
+libkexiv2 (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Mar 2012 20:59:14 +0200
+
+libkexiv2 (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 18:57:27 +0100
+
+libkexiv2 (4:4.8.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jan 2012 15:49:32 +0000
+
+libkexiv2 (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 04 Jan 2012 13:15:01 +0000
+
+libkexiv2 (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 15:07:25 +0100
+
+libkexiv2 (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Dec 2011 13:28:07 +0000
 
 libkexiv2 (4:4.7.4-2) unstable; urgency=low
 
@@ -166,9 +494,64 @@ libkexiv2 (4:4.7.4-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 00:45:11 +0100
 
+libkexiv2 (4:4.7.3-0ubuntu2) precise; urgency=low
+
+  * Use our previous libkexiv2-10.symbols file to prevent build failures
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 24 Nov 2011 19:56:48 +0000
+
+libkexiv2 (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+  * Merge with Debian, no changes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:46:52 +0000
+
 libkexiv2 (4:4.7.2-1) experimental; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Initial release. Start from the Ubuntu packaging, thanks!
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:59 -0300
+
+libkexiv2 (4:4.7.2-0r0) raring; urgency=low
+
+  * Initial release. Start from the Ubuntu packaging, thanks!
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 23 Sep 2011 21:44:03 +0200
+
+libkexiv2 (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:15:42 +0200
+
+libkexiv2 (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Sat, 03 Sep 2011 21:01:39 +0200
+
+libkexiv2 (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 22 Jul 2011 23:06:54 +0200
+
+libkexiv2 (4:4.6.90-0ubuntu2) oneiric; urgency=low
+
+  * Split data files into an own package.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 13 Jul 2011 15:28:06 +0200
+
+libkexiv2 (4:4.6.90-0ubuntu1) oneiric; urgency=low
+
+  [ Romain Perier ]
+  * Initial development release: split off from kdegraphics
+
+  [ Felix Geyer ]
+  * Make libkexiv2-dbg depend on libkexiv2-10.
+
+ -- Romain Perier <romain.perier@gmail.com>  Mon, 11 Jul 2011 14:07:35 +0200
+
