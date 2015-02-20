@@ -8,4 +8,3 @@ override_dh_shlibdeps:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=libkexiv2-dbg
-
