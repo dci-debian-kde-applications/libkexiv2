@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:14.11.97 amd64
+# SymbolsHelper-Confirmed: 4:15.04.2 amd64
 libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface10KExiv2Data7Private5clearEv@Base 4:4.9.80
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4:4.5.90
@@ -22,8 +22,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface11MsgTextEditD0Ev@Base 4:4.5.90
  _ZN11KExiv2Iface11MsgTextEditD1Ev@Base 4:4.5.90
  _ZN11KExiv2Iface11MsgTextEditD2Ev@Base 4:4.5.90
- _ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.10.3
- _ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.10.3
+ (optional)_ZN11KExiv2Iface11SubjectDataD1Ev@Base 4:4.10.3
+ (optional)_ZN11KExiv2Iface11SubjectDataD2Ev@Base 4:4.10.3
  _ZN11KExiv2Iface13SubjectWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget11qt_metacastEPKc@Base 4:4.5.90
  _ZN11KExiv2Iface13SubjectWidget14signalModifiedEv@Base 4:4.5.90
@@ -172,11 +172,13 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4:4.5.90
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4:4.5.90
  (optional=external|arch=!i386 !ia64 !mips !s390 !sparc)_ZN5Exiv213toBasicStringIcA59_cEESbIT_St11char_traitsIS2_ESaIS2_EERKT0_@Base 4:4.6.2
- _ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.6.90
- _ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.6.90
+ (optional)_ZN5Exiv217PreviewPropertiesD1Ev@Base 4:4.6.90
+ (optional)_ZN5Exiv217PreviewPropertiesD2Ev@Base 4:4.6.90
+ (optional=templinst)_ZN5Exiv28toStringIjEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_@Base 4:15.04.2
  (optional=templinst|arch=!i386 !mips !s390 !sparc)_ZN5Exiv28toStringIjEESsRKT_@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4:4.5.90
+ (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.04.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKSs@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjED0Ev@Base 4:4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjED1Ev@Base 4:4.5.90
@@ -305,7 +307,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZNK11KExiv2Iface6KExiv27Private14saveOperationsERK9QFileInfoSt8auto_ptrIN5Exiv25ImageEE@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private16saveToXMPSidecarERK9QFileInfo@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private19convertCommentValueERKN5Exiv29ExifdatumE@Base 4:4.9.80
- _ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKSs@Base 4:4.9.80
+ (optional)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.04.2
+ (optional)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKSs@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private24getXMPTagsListFromPrefixERK7QStringR4QMapIS2_11QStringListE@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27getIptcEb@Base 4:4.5.90
  _ZNK11KExiv2Iface6KExiv27hasExifEv@Base 4:4.5.90
@@ -350,6 +353,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4:4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4:4.5.90
  (optional=templinst)_ZNSt6vectorIjSaIjEE13_M_insert_auxEN9__gnu_cxx17__normal_iteratorIPjS1_EERKj@Base 4:4.5.90
+ (optional=templinst)_ZNSt7__cxx1110_List_baseIN5Exiv29ExifdatumESaIS2_EE8_M_clearEv@Base 4:15.04.2
+ (optional=templinst)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEaSERKS4_@Base 4:15.04.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEED1Ev@Base 4:4.6.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEEaSESt12auto_ptr_refIS1_E@Base 4:4.6.2
  _ZTIN11KExiv2Iface11MsgTextEditE@Base 4:4.5.90
