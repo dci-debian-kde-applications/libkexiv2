@@ -307,8 +307,8 @@ libkexiv2.so.11 libkexiv2-11 #MINVER#
  _ZNK11KExiv2Iface6KExiv27Private14saveOperationsERK9QFileInfoSt8auto_ptrIN5Exiv25ImageEE@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private16saveToXMPSidecarERK9QFileInfo@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private19convertCommentValueERKN5Exiv29ExifdatumE@Base 4:4.9.80
- (optional)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.04.2
- (optional)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKSs@Base 4:4.9.80
+ (optional=private)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:15.04.2
+ (optional=private)_ZNK11KExiv2Iface6KExiv27Private23detectEncodingAndDecodeERKSs@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27Private24getXMPTagsListFromPrefixERK7QStringR4QMapIS2_11QStringListE@Base 4:4.9.80
  _ZNK11KExiv2Iface6KExiv27getIptcEb@Base 4:4.5.90
  _ZNK11KExiv2Iface6KExiv27hasExifEv@Base 4:4.5.90
