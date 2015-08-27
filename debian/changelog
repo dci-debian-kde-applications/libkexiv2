@@ -1,3 +1,16 @@
+libkexiv2 (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - mark as optional symbols gone after building with GCC 5
+    - mark as optional a private symbols which shows up in GCC 5 but not in
+      GCC 4
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:24:12 +0100
+
 libkexiv2 (4:15.04.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
@@ -5,6 +18,23 @@ libkexiv2 (4:15.04.3-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.3).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:14:56 +0200
+
+libkexiv2 (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:44:51 +0200
+
+libkexiv2 (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:29:55 -0700
 
 libkexiv2 (4:14.12.2-1) experimental; urgency=medium
 
