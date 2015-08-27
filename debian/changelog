@@ -1,10 +1,10 @@
-libkexiv2 (4:15.04.3-1~) UNRELEASED; urgency=medium
+libkexiv2 (4:15.04.3-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * Update symbols files from buildds logs (4:14.12.2-1).
   * New upstream release (15.04.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:14:56 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 12:20:15 +0200
 
 libkexiv2 (4:15.07.90-0ubuntu1) wily; urgency=medium
 
