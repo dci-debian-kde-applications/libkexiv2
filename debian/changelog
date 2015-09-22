@@ -1,8 +1,8 @@
-libkexiv2 (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+libkexiv2 (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 11:37:26 +0100
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:40:52 +0100
 
 libkexiv2 (4:15.08.0-0ubuntu2) wily; urgency=medium
 
