@@ -31,7 +31,7 @@ Description: Qt like interface for the libexiv2 library
 Package: libkf5kexiv2-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5exiv2-15.0.0 (= ${binary:Version}),
+Depends: libkf5kexiv2-15.0.0 (= ${binary:Version}),
          pkg-config,
          ${misc:Depends}
 Description: Qt-like interface for the libexiv2 library -- development files
