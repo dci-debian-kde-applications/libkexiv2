@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 15.12.0 amd64 armel armhf hppa i386 kfreebsd-i386 mipsel powerpc ppc64 s390x sparc64 x32
 libKF5KExiv2.so.15.0.0 libKF5KExiv2-15 #MINVER#
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4.5.90
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4.5.90
@@ -95,8 +95,8 @@ libKF5KExiv2.so.15.0.0 libKF5KExiv2-15 #MINVER#
  _ZN11KExiv2Iface6KExiv2D1Ev@Base 4.5.90
  _ZN11KExiv2Iface6KExiv2D2Ev@Base 4.5.90
  _ZN11KExiv2Iface6KExiv2aSERKS0_@Base 4.5.90
- _ZN5Exiv213toBasicStringIcA59_cEENSt7__cxx1112basic_stringIT_St11char_traitsIS4_ESaIS4_EEERKT0_@Base 15.12.0
- (optional=templinst)_ZN5Exiv28toStringIjEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_@Base 15.04.2
+ (arch=amd64 ppc64 s390x sparc64)_ZN5Exiv213toBasicStringIcA59_cEENSt7__cxx1112basic_stringIT_St11char_traitsIS4_ESaIS4_EEERKT0_@Base 15.12.0
+ (optional=templinst|arch=amd64 ppc64 s390x sparc64)_ZN5Exiv28toStringIjEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_@Base 15.04.2
  (optional=templinst)_ZN5Exiv29ValueTypeIjE11setDataAreaEPKhl@Base 4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readEPKhlNS_9ByteOrderE@Base 4.5.90
  (optional=templinst)_ZN5Exiv29ValueTypeIjE4readERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 15.04.2
@@ -231,8 +231,6 @@ libKF5KExiv2.so.15.0.0 libKF5KExiv2-15 #MINVER#
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE7toFloatEl@Base 4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8dataAreaEv@Base 4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringEl@Base 4.5.90
- (optional=templinst|arch=hppa hurd-i386 kfreebsd-i386 powerpc sparc)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEC1ERKS3_@Base 4.13.95
- (optional=templinst|arch=hppa hurd-i386 kfreebsd-i386 powerpc sparc)_ZNSt4listIN5Exiv29ExifdatumESaIS1_EEC2ERKS3_@Base 4.13.95
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4.5.90
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED2Ev@Base 4.6.1
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4.8.3
@@ -241,11 +239,12 @@ libKF5KExiv2.so.15.0.0 libKF5KExiv2-15 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4.5.90
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIjEEEvDpOT_@Base 15.12.0
+ (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIjEEEvDpOT_@Base 15.12.0
  (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJjEEEvDpOT_@Base 15.12.0
  (optional=templinst)_ZNSt7__cxx1110_List_baseIN5Exiv29ExifdatumESaIS2_EE8_M_clearEv@Base 15.04.2
- (optional=templinst)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EE6insertISt20_List_const_iteratorIS2_EvEESt14_List_iteratorIS2_ES7_T_SA_@Base 15.12.0
- (optional=templinst)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEaSERKS4_@Base 15.04.2
+ (optional=templinst|arch=hppa sparc64 x32)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EE18_M_assign_dispatchISt20_List_const_iteratorIS2_EEEvT_S8_St12__false_type@Base 15.12.0
+ (optional=templinst|arch=amd64 armel armhf)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EE6insertISt20_List_const_iteratorIS2_EvEESt14_List_iteratorIS2_ES7_T_SA_@Base 15.12.0
+ (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEaSERKS4_@Base 15.04.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEED1Ev@Base 4.6.2
  (optional=templinst|arch=ia64 mips s390 sparc)_ZNSt8auto_ptrIN5Exiv25ImageEEaSESt12auto_ptr_refIS1_E@Base 4.6.2
  _ZTIN11KExiv2Iface6KExiv2E@Base 4.5.90
