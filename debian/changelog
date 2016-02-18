@@ -1,7 +1,11 @@
 libkf5kexiv2 (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * Merged with Debian
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Fix case in symbols file packagename to make lintain happy. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 13 Feb 2016 12:23:04 +0000
 
