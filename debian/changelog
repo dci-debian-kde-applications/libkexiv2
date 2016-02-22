@@ -6,6 +6,7 @@ libkf5kexiv2 (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix case in symbols file packagename to make lintain happy. 
+  * Add 0.0 to the package name in the symbols file. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 13 Feb 2016 12:23:04 +0000
 

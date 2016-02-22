@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 15.12.0 amd64 armel armhf hppa i386 kfreebsd-i386 mipsel powerpc ppc64 s390x sparc64 x32
-libKF5KExiv2.so.15.0.0 libkf5kexiv2-15 #MINVER#
+libKF5KExiv2.so.15.0.0 libkf5kexiv2-15.0.0 #MINVER#
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4.5.90
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4.5.90
  _ZN11KExiv2Iface10KExiv2DataC2ERKS0_@Base 4.5.90
