@@ -20,8 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkexiv2.git
 Package: libkf5kexiv2-15.0.0
 Section: libs
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt like interface for the libexiv2 library
  Libkexiv2 is a Qt wrapper around the Exiv2 library, used to manipulate
  pictures metadata.
@@ -31,9 +30,7 @@ Description: Qt like interface for the libexiv2 library
 Package: libkf5kexiv2-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kexiv2-15.0.0 (= ${binary:Version}),
-         pkg-config,
-         ${misc:Depends}
+Depends: libkf5kexiv2-15.0.0 (= ${binary:Version}), pkg-config, ${misc:Depends}
 Description: Qt-like interface for the libexiv2 library -- development files
  Libkexiv2 is a Qt wrapper around the Exiv2 library, used to manipulate
  pictures metadata.
