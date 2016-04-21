@@ -1,11 +1,12 @@
-libkf5kexiv2 (15.12.0-3~1.gbp9db6c4) UNRELEASED; urgency=medium
+libkf5kexiv2 (16.04.0-1~1.gbpef5821) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9db6c4d2ac53b8f242ee90e88cde8b7ae73f8db6 **
+  ** SNAPSHOT build @ef582108580f6d1cee51617a2a65c7a63d59eb6d **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 12:01:22 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:40:11 +0200
 
 libkf5kexiv2 (15.12.0-2) experimental; urgency=medium
 
