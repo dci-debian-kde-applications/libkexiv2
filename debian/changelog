@@ -1,20 +1,15 @@
-libkf5kexiv2 (16.04.0-1~2.gbp9aca09) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @9aca095af797b8cf302a85fbad5d98d9b215799d **
+libkf5kexiv2 (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @ef582108580f6d1cee51617a2a65c7a63d59eb6d **
-
   * Bump Standards-Version to 3.9.8
   * Update symbols files with the logs from the buildds
-  * UNRELEASED
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Fix wrong package name in symbols file
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 26 Apr 2016 16:29:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 18:25:54 +0200
 
 libkf5kexiv2 (15.12.0-2) experimental; urgency=medium
 
