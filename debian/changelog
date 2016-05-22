@@ -1,3 +1,9 @@
+libkf5kexiv2 (16.04.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 10:10:15 +0200
+
 libkf5kexiv2 (16.04.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
