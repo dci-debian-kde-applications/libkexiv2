@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 17.08.1 amd64
 libKF5KExiv2.so.15.0.0 libkf5kexiv2-15.0.0 #MINVER#
  _ZN11KExiv2Iface10KExiv2DataC1ERKS0_@Base 4.5.90
  _ZN11KExiv2Iface10KExiv2DataC1Ev@Base 4.5.90
@@ -230,21 +230,24 @@ libKF5KExiv2.so.15.0.0 libkf5kexiv2-15.0.0 #MINVER#
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE6toLongEl@Base 4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE7toFloatEl@Base 4.5.90
  (optional=templinst)_ZNK5Exiv29ValueTypeIjE8dataAreaEv@Base 4.5.90
- (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringEl@Base 4.5.90
+ (optional=templinst)_ZNK5Exiv29ValueTypeIjE8toStringB5cxx11El@Base 17.08.1
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED1Ev@Base 4.5.90
  (optional=templinst)_ZNSt6vectorIN5Exiv217PreviewPropertiesESaIS1_EED2Ev@Base 4.6.1
+ (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEC1ERKS3_@Base 17.08.1
+ (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEC2ERKS3_@Base 17.08.1
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED1Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EED2Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv28XmpdatumESaIS1_EEaSERKS3_@Base 4.5.90
+ (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEC1ERKS3_@Base 17.08.1
+ (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEC2ERKS3_@Base 17.08.1
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED1Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EED2Ev@Base 4.8.3
  (optional=templinst)_ZNSt6vectorIN5Exiv29IptcdatumESaIS1_EEaSERKS3_@Base 4.5.90
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIjEEEvDpOT_@Base 15.12.0
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJjEEEvDpOT_@Base 15.12.0
+ (optional=templinst)_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_@Base 17.08.1
  (optional=templinst)_ZNSt7__cxx1110_List_baseIN5Exiv29ExifdatumESaIS2_EE8_M_clearEv@Base 15.04.2
  (optional=templinst|arch=hppa sparc64 x32)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EE18_M_assign_dispatchISt20_List_const_iteratorIS2_EEEvT_S8_St12__false_type@Base 15.12.0
- (optional=templinst|arch=amd64 arm64 armel armhf kfreebsd-amd64 mips64el ppc64el)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EE6insertISt20_List_const_iteratorIS2_EvEESt14_List_iteratorIS2_ES7_T_SA_@Base 15.12.0
- (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEaSERKS4_@Base 15.04.2
+ (optional=templinst)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEC1ERKS4_@Base 17.08.1
+ (optional=templinst)_ZNSt7__cxx114listIN5Exiv29ExifdatumESaIS2_EEC2ERKS4_@Base 17.08.1
  _ZTIN11KExiv2Iface6KExiv2E@Base 4.5.90
  _ZTIN5Exiv210BasicErrorIcEE@Base 4.5.90
  _ZTIN5Exiv29ValueTypeIjEE@Base 4.5.90
