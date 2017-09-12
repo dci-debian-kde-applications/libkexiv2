@@ -1,10 +1,13 @@
-libkf5kexiv2 (17.08.1-1~) UNRELEASED; urgency=medium
+libkf5kexiv2 (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
   * Bump Standards-Version to 4.1.0.
   * Update upstream metadata
+  * Update symbols files
+  * Bump group breaks (17.08)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 22:00:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 22:41:24 +0200
 
 libkf5kexiv2 (17.08.1-0neon) xenial; urgency=medium
 
