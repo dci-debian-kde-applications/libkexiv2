@@ -8,6 +8,8 @@ libkf5kexiv2 (17.08.3-0r1) UNRELEASED; urgency=medium
     automatically.
   * Remove pkg-config dependency in libkf5kexiv2-dev, since it is no more
     needed now.
+  * Remove the kdegraphics-thumbnailers break in libkf5kexiv2-15.0.0, since
+    it is not needed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Dec 2017 14:38:47 +0100
 

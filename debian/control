@@ -26,7 +26,6 @@ Description: Qt like interface for the libexiv2 library
  pictures metadata.
  .
  This package contains the libkexiv2 library.
-Breaks: kdegraphics-thumbnailers (<< 4:17.08)
 
 Package: libkf5kexiv2-dev
 Section: libdevel
